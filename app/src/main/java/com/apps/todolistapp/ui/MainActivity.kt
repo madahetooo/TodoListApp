@@ -25,8 +25,11 @@ class MainActivity : AppCompatActivity() {
             Todo("Go To Gym4",false),
             Todo("Go To Gym5",false),
         )
+
         val ourAdapter = TodoAdapter(todolist)
+
         binding.rvTodos.adapter = ourAdapter
+
         binding.rvTodos.layoutManager = LinearLayoutManager(this)
 
         binding.btnAddTodo.setOnClickListener {

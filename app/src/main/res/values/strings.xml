@@ -3,4 +3,5 @@
     <string name="enter_your_todo">Enter your todo</string>
     <string name="add">Add</string>
     <string name="dummy_todo">Dummy Todo</string>
+    <string name="show_notification">Show Notification</string>
 </resources>
