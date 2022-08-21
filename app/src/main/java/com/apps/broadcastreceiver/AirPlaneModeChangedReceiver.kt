@@ -7,7 +7,6 @@ import android.widget.Toast
 
 class AirPlaneModeChangedReceiver  : BroadcastReceiver(){
 
-
     override fun onReceive(context: Context?, intnet: Intent?) {
         val isAirPlaneModeEnabled = intnet?.getBooleanExtra("state",false)?:return
         if (isAirPlaneModeEnabled){
