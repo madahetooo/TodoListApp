@@ -13,4 +13,8 @@
     <string name="enter_phone_number">Enter Phone Number</string>
     <string name="register">Register</string>
     <string name="already_have_an_account_login">Already have an account ?? Login</string>
+    <string name="enter_notificaiton_title">Enter notificaiton Title</string>
+    <string name="enter_notificaiton_message">Enter notificaiton Message</string>
+    <string name="send_notification">Send Notification</string>
+    <string name="token">Token</string>
 </resources>
